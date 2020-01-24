@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  float a, b:
+  int k;
+  cout<<""endl;
+  cout<<endl;
+  cout<<""<<endl;
+  cin>>a;
+  cout<<""<<endl;
+  cin>>b;
+  cout<<""opcja 1"<<endl;
+  cout<<opcja 2
+  opcja 3 
+  opcja 4
+  cout<<""<<endl;
+  cin>>k;
+  cout<<endl;
+  
+    switch(k)
+      {
+        case1:cout<<endl;
+          cout<<"Wynik to: "<<a+b<<endl;
+            cout<<"Koniec";
+        break;
+        case2:
+        case3:
+        case4:
+        default:cout<<"Dokonaj wyboru pomiedzy 1-4"<<endl;
+          cout<<"Koniec";
+        break;
+      }
+return 0;
+}
