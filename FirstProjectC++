@@ -3,32 +3,39 @@ using namespace std;
 
 int main()
 {
-  float a, b:
+  float a, b;
   int k;
-  cout<<""endl;
+  cout<<"Program wykonuje 4 podstawowe dzialania (+,-,/,*)"<<endl;
   cout<<endl;
-  cout<<""<<endl;
+  cout<<"Podaj pierwsza liczbe: "<<endl;
   cin>>a;
-  cout<<""<<endl;
+  cout<<"Podaj druga liczbe"<<endl;
   cin>>b;
-  cout<<""opcja 1"<<endl;
-  cout<<opcja 2
-  opcja 3 
-  opcja 4
-  cout<<""<<endl;
+  cout<<"opcja 1- dodawanie"<<endl;
+  cout<<"opcja 2- odejmowanie"<<endl;
+  cout<<"opcja 3- dzielenie"<<endl;
+  cout<<"opcja 4- mnozenie"<<endl;
+  cout<<"Wybierz opcje od 1-4 jakie dzialanie chcesz wykonac"<<endl;
   cin>>k;
   cout<<endl;
-  
+
     switch(k)
       {
-        case1:cout<<endl;
+        case 1:
           cout<<"Wynik to: "<<a+b<<endl;
             cout<<"Koniec";
         break;
-        case2:
-        case3:
-        case4:
-        default:cout<<"Dokonaj wyboru pomiedzy 1-4"<<endl;
+        case 2:
+        cout<<"Wynik to: "<<a-b<<endl;
+            cout<<"Koniec";
+        case 3:
+        cout<<"Wynik to: "<<a/b<<endl;
+            cout<<"Koniec";
+        case 4:
+        cout<<"Wynik to: "<<a*b<<endl;
+            cout<<"Koniec";
+        default:
+            cout<<"Dokonaj wyboru pomiedzy 1-4"<<endl;
           cout<<"Koniec";
         break;
       }
